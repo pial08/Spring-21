@@ -7,7 +7,7 @@ My primary project SG-Net-Master is an implementation of this paper https://arxi
 The code was initially forked from the github of the author and then modified accoridng to my goal. The descriptions will be found inside the folder.
 
 ## Assignments
-
+To be done
 
 ##Transformer Using Pytorch
 This project was done in order to learn how to use pytorch transformers. In this project I used the transformer library as an intact module, and also used 
@@ -15,4 +15,5 @@ library of encoder and decoder to form a transformer to do the same thing.
 
 
 ##BERT Transformer
+BERT Transformer user the pretrained library from the Huggingface transformers library. The goal of this project is sentiment analysis.
 
