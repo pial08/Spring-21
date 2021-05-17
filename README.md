@@ -7,7 +7,8 @@ My primary project SG-Net-Master is an implementation of this paper https://arxi
 The code was initially forked from the github of the author and then modified accoridng to my goal. The descriptions will be found inside the folder.
 
 ## Assignments
-To be done
+The assignments contains reviews of a paper titled "Visualizing the Loss Landscape of Neural
+Nets" and a short summary of 3 papers which participated in the SQuAD 2.0 challenge. The Jupyter notebook visualizes how the loss surface diverges to local minimum. 
 
 ##Transformer Using Pytorch
 This project was done in order to learn how to use pytorch transformers. In this project I used the transformer library as an intact module, and also used 
