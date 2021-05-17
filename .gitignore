@@ -1,0 +1,21 @@
+$ cat .gitignore
+    # exclude everything except directory foo/bar
+    #/*
+    #!/foo
+    #/foo/*
+    #!/foo/bar
+/BERT\ Transformer/best_model_state.bin
+/BERT\ Transformer/data/IMDB\ Dataset.csv
+/Zoom\ API\ integration/*
+/SG-Net-master/output_path/*
+/SG-Net-master/transformers/*
+/Transformer_Scratch/.data/*
+/Transformer Using Pytorch Library/.data/*
+/Transformer_Scratch/annotated-transformer-master/en-de-model.pt
+/Transformer_Scratch/annotated-transformer-master/en-de-model.pt.1
+/Transformer_Scratch/annotated-transformer-master/iwslt.pt
+/Transformer_Scratch/.data/*
+/Transformer_Scratch/annotated-transformer-master/.data/*
+/Transformer_Scratch/annotated-transformer-master/data/*
+/Transformer\ Using\ Pytorch\ Library/my_checkpoint.pth.tar
+
