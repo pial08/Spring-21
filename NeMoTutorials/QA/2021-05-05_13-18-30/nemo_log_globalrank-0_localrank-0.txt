@@ -1,0 +1,208 @@
+[NeMo I 2021-05-05 13:18:30 exp_manager:208] Experiments will be logged at /home/ocistudent/Desktop/Spring-21/NeMoTutorials/QA/2021-05-05_13-18-30
+[NeMo I 2021-05-05 13:18:30 exp_manager:548] TensorboardLogger has been set up
+[NeMo I 2021-05-05 13:19:29 cloud:66] Downloading from: https://api.ngc.nvidia.com/v2/models/nvidia/nemo/qa_squadv1_1_bertbase/versions/1.0.0rc1/files/qa_squadv1.1_bertbase.nemo to /home/ocistudent/.cache/torch/NeMo/NeMo_1.0.0rc1/qa_squadv1.1_bertbase/42a5d611ce54ad0e2cc05000e259932f/qa_squadv1.1_bertbase.nemo
+[NeMo I 2021-05-05 13:24:40 common:654] Instantiating model from pre-trained checkpoint
+[NeMo W 2021-05-05 13:24:43 modelPT:180] Using /tmp/tmp61qo5m_i/tokenizer.vocab_file instead of tokenizer.vocab_file.
+[NeMo W 2021-05-05 13:25:35 modelPT:132] Please call the ModelPT.setup_training_data() method and provide a valid configuration file to setup the train data loader.
+    Train config : 
+    file: /datasets/squad/v1.1/train-v1.1.json
+    batch_size: 3
+    shuffle: true
+    num_samples: -1
+    num_workers: 2
+    drop_last: false
+    pin_memory: false
+    
+[NeMo W 2021-05-05 13:25:35 modelPT:139] Please call the ModelPT.setup_validation_data() or ModelPT.setup_multiple_validation_data() method and provide a valid configuration file to setup the validation data loader(s). 
+    Validation config : 
+    file: /datasets/squad/v1.1/dev-v1.1.json
+    batch_size: 3
+    shuffle: false
+    num_samples: -1
+    num_workers: 2
+    drop_last: false
+    pin_memory: false
+    
+[NeMo W 2021-05-05 13:25:35 modelPT:146] Please call the ModelPT.setup_test_data() or ModelPT.setup_multiple_test_data() method and provide a valid configuration file to setup the test data loader(s).
+    Test config : 
+    file: null
+    batch_size: 24
+    shuffle: false
+    num_samples: -1
+    num_workers: 2
+    drop_last: false
+    pin_memory: false
+    
+[NeMo W 2021-05-05 13:25:35 modelPT:1134] World size can only be set by PyTorch Lightning Trainer.
+[NeMo I 2021-05-05 13:28:07 modelPT:376] Model QAModel was successfully restored from /home/ocistudent/.cache/torch/NeMo/NeMo_1.0.0rc1/qa_squadv1.1_bertbase/42a5d611ce54ad0e2cc05000e259932f/qa_squadv1.1_bertbase.nemo.
+[NeMo I 2021-05-05 13:30:33 qa_dataset:123] Preprocessing data.
+[NeMo I 2021-05-05 13:30:33 qa_squad_processing:517] *** Example ***
+[NeMo I 2021-05-05 13:30:33 qa_squad_processing:518] unique_id: 1000000000
+[NeMo I 2021-05-05 13:30:33 qa_squad_processing:519] example_index: 0
+[NeMo I 2021-05-05 13:30:33 qa_squad_processing:520] doc_span_index: 0
+[NeMo I 2021-05-05 13:30:33 qa_squad_processing:521] tokens: [CLS] to whom did the virgin mary allegedly appear in 1858 in lou ##rdes france ? [SEP] architectural ##ly , the school has a catholic character . atop the main building ' s gold dome is a golden statue of the virgin mary . immediately in front of the main building and facing it , is a copper statue of christ with arms up ##rai ##sed with the legend " ve ##ni ##te ad me om ##nes " . next to the main building is the basilica of the sacred heart . immediately behind the basilica is the gr ##otto , a marian place of prayer and reflection . it is a replica of the gr ##otto at lou ##rdes , france where the virgin mary reputed ##ly appeared to saint bern ##ade ##tte so ##ub ##iro ##us in 1858 . at the end of the main drive ( and in a direct line that connects through 3 statues and the gold dome ) , is a simple , modern stone statue of mary . [SEP]
+[NeMo I 2021-05-05 13:30:33 qa_squad_processing:522] token_to_orig_map: 17:0 18:0 19:0 20:1 21:2 22:3 23:4 24:5 25:6 26:6 27:7 28:8 29:9 30:10 31:10 32:10 33:11 34:12 35:13 36:14 37:15 38:16 39:17 40:18 41:19 42:20 43:20 44:21 45:22 46:23 47:24 48:25 49:26 50:27 51:28 52:29 53:30 54:30 55:31 56:32 57:33 58:34 59:35 60:36 61:37 62:38 63:39 64:39 65:39 66:40 67:41 68:42 69:43 70:43 71:43 72:43 73:44 74:45 75:46 76:46 77:46 78:46 79:47 80:48 81:49 82:50 83:51 84:52 85:53 86:54 87:55 88:56 89:57 90:58 91:58 92:59 93:60 94:61 95:62 96:63 97:64 98:65 99:65 100:65 101:66 102:67 103:68 104:69 105:70 106:71 107:72 108:72 109:73 110:74 111:75 112:76 113:77 114:78 115:79 116:79 117:80 118:81 119:81 120:81 121:82 122:83 123:84 124:85 125:86 126:87 127:87 128:88 129:89 130:90 131:91 132:91 133:91 134:92 135:92 136:92 137:92 138:93 139:94 140:94 141:95 142:96 143:97 144:98 145:99 146:100 147:101 148:102 149:102 150:103 151:104 152:105 153:106 154:107 155:108 156:109 157:110 158:111 159:112 160:113 161:114 162:115 163:115 164:115 165:116 166:117 167:118 168:118 169:119 170:120 171:121 172:122 173:123 174:123
+[NeMo I 2021-05-05 13:30:33 qa_squad_processing:525] token_is_max_context: 17:True 18:True 19:True 20:True 21:True 22:True 23:True 24:True 25:True 26:True 27:True 28:True 29:True 30:True 31:True 32:True 33:True 34:True 35:True 36:True 37:True 38:True 39:True 40:True 41:True 42:True 43:True 44:True 45:True 46:True 47:True 48:True 49:True 50:True 51:True 52:True 53:True 54:True 55:True 56:True 57:True 58:True 59:True 60:True 61:True 62:True 63:True 64:True 65:True 66:True 67:True 68:True 69:True 70:True 71:True 72:True 73:True 74:True 75:True 76:True 77:True 78:True 79:True 80:True 81:True 82:True 83:True 84:True 85:True 86:True 87:True 88:True 89:True 90:True 91:True 92:True 93:True 94:True 95:True 96:True 97:True 98:True 99:True 100:True 101:True 102:True 103:True 104:True 105:True 106:True 107:True 108:True 109:True 110:True 111:True 112:True 113:True 114:True 115:True 116:True 117:True 118:True 119:True 120:True 121:True 122:True 123:True 124:True 125:True 126:True 127:True 128:True 129:True 130:True 131:True 132:True 133:True 134:True 135:True 136:True 137:True 138:True 139:True 140:True 141:True 142:True 143:True 144:True 145:True 146:True 147:True 148:True 149:True 150:True 151:True 152:True 153:True 154:True 155:True 156:True 157:True 158:True 159:True 160:True 161:True 162:True 163:True 164:True 165:True 166:True 167:True 168:True 169:True 170:True 171:True 172:True 173:True 174:True
+[NeMo I 2021-05-05 13:30:33 qa_squad_processing:529] input_ids: 101 2000 3183 2106 1996 6261 2984 9382 3711 1999 8517 1999 10223 26371 2605 1029 102 6549 2135 1010 1996 2082 2038 1037 3234 2839 1012 10234 1996 2364 2311 1005 1055 2751 8514 2003 1037 3585 6231 1997 1996 6261 2984 1012 3202 1999 2392 1997 1996 2364 2311 1998 5307 2009 1010 2003 1037 6967 6231 1997 4828 2007 2608 2039 14995 6924 2007 1996 5722 1000 2310 3490 2618 4748 2033 18168 5267 1000 1012 2279 2000 1996 2364 2311 2003 1996 13546 1997 1996 6730 2540 1012 3202 2369 1996 13546 2003 1996 24665 23052 1010 1037 14042 2173 1997 7083 1998 9185 1012 2009 2003 1037 15059 1997 1996 24665 23052 2012 10223 26371 1010 2605 2073 1996 6261 2984 22353 2135 2596 2000 3002 16595 9648 4674 2061 12083 9711 2271 1999 8517 1012 2012 1996 2203 1997 1996 2364 3298 1006 1998 1999 1037 3622 2240 2008 8539 2083 1017 11342 1998 1996 2751 8514 1007 1010 2003 1037 3722 1010 2715 2962 6231 1997 2984 1012 102 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[NeMo I 2021-05-05 13:30:33 qa_squad_processing:530] input_mask: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[NeMo I 2021-05-05 13:30:33 qa_squad_processing:531] segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[NeMo I 2021-05-05 13:30:33 qa_squad_processing:536] start_position: 130
+[NeMo I 2021-05-05 13:30:33 qa_squad_processing:537] end_position: 137
+[NeMo I 2021-05-05 13:30:33 qa_squad_processing:538] answer: saint bern ##ade ##tte so ##ub ##iro ##us
+[NeMo I 2021-05-05 13:30:33 qa_squad_processing:540] Finished processing: 0
+[NeMo I 2021-05-05 13:30:34 qa_squad_processing:540] Finished processing: 100
+[NeMo I 2021-05-05 13:30:34 qa_squad_processing:540] Finished processing: 200
+[NeMo I 2021-05-05 13:30:35 qa_squad_processing:540] Finished processing: 300
+[NeMo I 2021-05-05 13:30:36 qa_squad_processing:540] Finished processing: 400
+[NeMo I 2021-05-05 13:30:37 qa_squad_processing:540] Finished processing: 500
+[NeMo I 2021-05-05 13:30:37 qa_squad_processing:540] Finished processing: 600
+[NeMo I 2021-05-05 13:30:38 qa_squad_processing:540] Finished processing: 700
+[NeMo I 2021-05-05 13:30:39 qa_squad_processing:540] Finished processing: 800
+[NeMo I 2021-05-05 13:30:39 qa_squad_processing:540] Finished processing: 900
+[NeMo I 2021-05-05 13:30:40 qa_squad_processing:540] Finished processing: 1000
+[NeMo I 2021-05-05 13:30:41 qa_squad_processing:540] Finished processing: 1100
+[NeMo I 2021-05-05 13:30:41 qa_squad_processing:540] Finished processing: 1200
+[NeMo I 2021-05-05 13:30:42 qa_squad_processing:540] Finished processing: 1300
+[NeMo I 2021-05-05 13:30:43 qa_squad_processing:540] Finished processing: 1400
+[NeMo I 2021-05-05 13:30:44 qa_squad_processing:540] Finished processing: 1500
+[NeMo I 2021-05-05 13:30:44 qa_squad_processing:540] Finished processing: 1600
+[NeMo I 2021-05-05 13:30:45 qa_squad_processing:540] Finished processing: 1700
+[NeMo I 2021-05-05 13:30:46 qa_squad_processing:540] Finished processing: 1800
+[NeMo I 2021-05-05 13:30:46 qa_squad_processing:540] Finished processing: 1900
+[NeMo I 2021-05-05 13:30:47 qa_squad_processing:540] Finished processing: 2000
+[NeMo I 2021-05-05 13:30:47 qa_squad_processing:540] Finished processing: 2100
+[NeMo I 2021-05-05 13:30:48 qa_squad_processing:540] Finished processing: 2200
+[NeMo I 2021-05-05 13:30:49 qa_squad_processing:540] Finished processing: 2300
+[NeMo I 2021-05-05 13:30:49 qa_squad_processing:540] Finished processing: 2400
+[NeMo I 2021-05-05 13:30:50 qa_squad_processing:540] Finished processing: 2500
+[NeMo I 2021-05-05 13:30:50 qa_squad_processing:540] Finished processing: 2600
+[NeMo I 2021-05-05 13:30:51 qa_squad_processing:540] Finished processing: 2700
+[NeMo I 2021-05-05 13:30:51 qa_squad_processing:540] Finished processing: 2800
+[NeMo I 2021-05-05 13:30:52 qa_squad_processing:540] Finished processing: 2900
+[NeMo I 2021-05-05 13:30:53 qa_squad_processing:540] Finished processing: 3000
+[NeMo I 2021-05-05 13:30:53 qa_squad_processing:540] Finished processing: 3100
+[NeMo I 2021-05-05 13:30:54 qa_squad_processing:540] Finished processing: 3200
+[NeMo I 2021-05-05 13:30:55 qa_squad_processing:540] Finished processing: 3300
+[NeMo I 2021-05-05 13:30:55 qa_squad_processing:540] Finished processing: 3400
+[NeMo I 2021-05-05 13:30:56 qa_squad_processing:540] Finished processing: 3500
+[NeMo I 2021-05-05 13:30:56 qa_squad_processing:540] Finished processing: 3600
+[NeMo I 2021-05-05 13:30:57 qa_squad_processing:540] Finished processing: 3700
+[NeMo I 2021-05-05 13:30:57 qa_squad_processing:540] Finished processing: 3800
+[NeMo I 2021-05-05 13:30:58 qa_squad_processing:540] Finished processing: 3900
+[NeMo I 2021-05-05 13:30:58 qa_squad_processing:540] Finished processing: 4000
+[NeMo I 2021-05-05 13:30:59 qa_squad_processing:540] Finished processing: 4100
+[NeMo I 2021-05-05 13:31:00 qa_squad_processing:540] Finished processing: 4200
+[NeMo I 2021-05-05 13:31:00 qa_squad_processing:540] Finished processing: 4300
+[NeMo I 2021-05-05 13:31:01 qa_squad_processing:540] Finished processing: 4400
+[NeMo I 2021-05-05 13:31:01 qa_squad_processing:540] Finished processing: 4500
+[NeMo I 2021-05-05 13:31:02 qa_squad_processing:540] Finished processing: 4600
+[NeMo I 2021-05-05 13:31:02 qa_squad_processing:540] Finished processing: 4700
+[NeMo I 2021-05-05 13:31:03 qa_squad_processing:540] Finished processing: 4800
+[NeMo I 2021-05-05 13:31:04 qa_squad_processing:540] Finished processing: 4900
+[NeMo I 2021-05-05 13:31:04 qa_dataset:137]   Saving train features into cached file /home/ocistudent/Desktop/Spring-21/NeMoTutorials/squad/v1.1/train-v1.1.json_cache_train_BertTokenizer_30522_384_128_64_5000
+[NeMo I 2021-05-05 13:31:07 qa_dataset:123] Preprocessing data.
+[NeMo I 2021-05-05 13:31:07 qa_squad_processing:517] *** Example ***
+[NeMo I 2021-05-05 13:31:07 qa_squad_processing:518] unique_id: 1000000000
+[NeMo I 2021-05-05 13:31:07 qa_squad_processing:519] example_index: 0
+[NeMo I 2021-05-05 13:31:07 qa_squad_processing:520] doc_span_index: 0
+[NeMo I 2021-05-05 13:31:07 qa_squad_processing:521] tokens: [CLS] which nfl team represented the afc at super bowl 50 ? [SEP] super bowl 50 was an american football game to determine the champion of the national football league ( nfl ) for the 2015 season . the american football conference ( afc ) champion denver broncos defeated the national football conference ( nfc ) champion carolina panthers 24 – 10 to earn their third super bowl title . the game was played on february 7 , 2016 , at levi ' s stadium in the san francisco bay area at santa clara , california . as this was the 50th super bowl , the league emphasized the " golden anniversary " with various gold - themed initiatives , as well as temporarily suspend ##ing the tradition of naming each super bowl game with roman nu ##meral ##s ( under which the game would have been known as " super bowl l " ) , so that the logo could prominently feature the arabic nu ##meral ##s 50 . [SEP]
+[NeMo I 2021-05-05 13:31:07 qa_squad_processing:522] token_to_orig_map: 13:0 14:1 15:2 16:3 17:4 18:5 19:6 20:7 21:8 22:9 23:10 24:11 25:12 26:13 27:14 28:15 29:16 30:17 31:17 32:17 33:18 34:19 35:20 36:21 37:21 38:22 39:23 40:24 41:25 42:26 43:26 44:26 45:27 46:28 47:29 48:30 49:31 50:32 51:33 52:34 53:35 54:35 55:35 56:36 57:37 58:38 59:39 60:39 61:39 62:40 63:41 64:42 65:43 66:44 67:45 68:46 69:46 70:47 71:48 72:49 73:50 74:51 75:52 76:53 77:53 78:54 79:54 80:55 81:56 82:56 83:56 84:57 85:58 86:59 87:60 88:61 89:62 90:63 91:64 92:65 93:66 94:66 95:67 96:67 97:68 98:69 99:70 100:71 101:72 102:73 103:74 104:74 105:75 106:76 107:77 108:78 109:79 110:79 111:80 112:80 113:81 114:82 115:83 116:83 117:83 118:84 119:84 120:85 121:86 122:87 123:88 124:89 125:89 126:90 127:91 128:92 129:93 130:94 131:95 132:96 133:97 134:98 135:99 136:100 137:100 138:100 139:101 140:101 141:102 142:103 143:104 144:105 145:106 146:107 147:108 148:109 149:110 150:110 151:111 152:112 153:112 154:112 155:112 156:113 157:114 158:115 159:116 160:117 161:118 162:119 163:120 164:121 165:122 166:122 167:122 168:123 169:123
+[NeMo I 2021-05-05 13:31:07 qa_squad_processing:525] token_is_max_context: 13:True 14:True 15:True 16:True 17:True 18:True 19:True 20:True 21:True 22:True 23:True 24:True 25:True 26:True 27:True 28:True 29:True 30:True 31:True 32:True 33:True 34:True 35:True 36:True 37:True 38:True 39:True 40:True 41:True 42:True 43:True 44:True 45:True 46:True 47:True 48:True 49:True 50:True 51:True 52:True 53:True 54:True 55:True 56:True 57:True 58:True 59:True 60:True 61:True 62:True 63:True 64:True 65:True 66:True 67:True 68:True 69:True 70:True 71:True 72:True 73:True 74:True 75:True 76:True 77:True 78:True 79:True 80:True 81:True 82:True 83:True 84:True 85:True 86:True 87:True 88:True 89:True 90:True 91:True 92:True 93:True 94:True 95:True 96:True 97:True 98:True 99:True 100:True 101:True 102:True 103:True 104:True 105:True 106:True 107:True 108:True 109:True 110:True 111:True 112:True 113:True 114:True 115:True 116:True 117:True 118:True 119:True 120:True 121:True 122:True 123:True 124:True 125:True 126:True 127:True 128:True 129:True 130:True 131:True 132:True 133:True 134:True 135:True 136:True 137:True 138:True 139:True 140:True 141:True 142:True 143:True 144:True 145:True 146:True 147:True 148:True 149:True 150:True 151:True 152:True 153:True 154:True 155:True 156:True 157:True 158:True 159:True 160:True 161:True 162:True 163:True 164:True 165:True 166:True 167:True 168:True 169:True
+[NeMo I 2021-05-05 13:31:07 qa_squad_processing:529] input_ids: 101 2029 5088 2136 3421 1996 10511 2012 3565 4605 2753 1029 102 3565 4605 2753 2001 2019 2137 2374 2208 2000 5646 1996 3410 1997 1996 2120 2374 2223 1006 5088 1007 2005 1996 2325 2161 1012 1996 2137 2374 3034 1006 10511 1007 3410 7573 14169 3249 1996 2120 2374 3034 1006 22309 1007 3410 3792 12915 2484 1516 2184 2000 7796 2037 2353 3565 4605 2516 1012 1996 2208 2001 2209 2006 2337 1021 1010 2355 1010 2012 11902 1005 1055 3346 1999 1996 2624 3799 3016 2181 2012 4203 10254 1010 2662 1012 2004 2023 2001 1996 12951 3565 4605 1010 1996 2223 13155 1996 1000 3585 5315 1000 2007 2536 2751 1011 11773 11107 1010 2004 2092 2004 8184 28324 2075 1996 4535 1997 10324 2169 3565 4605 2208 2007 3142 16371 28990 2015 1006 2104 2029 1996 2208 2052 2031 2042 2124 2004 1000 3565 4605 1048 1000 1007 1010 2061 2008 1996 8154 2071 14500 3444 1996 5640 16371 28990 2015 2753 1012 102 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[NeMo I 2021-05-05 13:31:07 qa_squad_processing:530] input_mask: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[NeMo I 2021-05-05 13:31:07 qa_squad_processing:531] segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[NeMo I 2021-05-05 13:31:07 qa_squad_processing:536] start_position: 46
+[NeMo I 2021-05-05 13:31:07 qa_squad_processing:537] end_position: 47
+[NeMo I 2021-05-05 13:31:07 qa_squad_processing:538] answer: denver broncos
+[NeMo I 2021-05-05 13:31:07 qa_squad_processing:540] Finished processing: 0
+[NeMo I 2021-05-05 13:31:07 qa_squad_processing:540] Finished processing: 100
+[NeMo I 2021-05-05 13:31:08 qa_squad_processing:540] Finished processing: 200
+[NeMo I 2021-05-05 13:31:09 qa_squad_processing:540] Finished processing: 300
+[NeMo I 2021-05-05 13:31:09 qa_squad_processing:540] Finished processing: 400
+[NeMo I 2021-05-05 13:31:10 qa_squad_processing:540] Finished processing: 500
+[NeMo I 2021-05-05 13:31:10 qa_squad_processing:540] Finished processing: 600
+[NeMo I 2021-05-05 13:31:11 qa_squad_processing:540] Finished processing: 700
+[NeMo I 2021-05-05 13:31:12 qa_squad_processing:540] Finished processing: 800
+[NeMo I 2021-05-05 13:31:12 qa_squad_processing:540] Finished processing: 900
+[NeMo I 2021-05-05 13:31:13 qa_squad_processing:540] Finished processing: 1000
+[NeMo I 2021-05-05 13:31:14 qa_squad_processing:540] Finished processing: 1100
+[NeMo I 2021-05-05 13:31:14 qa_squad_processing:540] Finished processing: 1200
+[NeMo I 2021-05-05 13:31:15 qa_squad_processing:540] Finished processing: 1300
+[NeMo I 2021-05-05 13:31:15 qa_squad_processing:540] Finished processing: 1400
+[NeMo I 2021-05-05 13:31:16 qa_squad_processing:540] Finished processing: 1500
+[NeMo I 2021-05-05 13:31:16 qa_squad_processing:540] Finished processing: 1600
+[NeMo I 2021-05-05 13:31:17 qa_squad_processing:540] Finished processing: 1700
+[NeMo I 2021-05-05 13:31:17 qa_squad_processing:540] Finished processing: 1800
+[NeMo I 2021-05-05 13:31:18 qa_squad_processing:540] Finished processing: 1900
+[NeMo I 2021-05-05 13:31:18 qa_squad_processing:540] Finished processing: 2000
+[NeMo I 2021-05-05 13:31:18 qa_squad_processing:540] Finished processing: 2100
+[NeMo I 2021-05-05 13:31:19 qa_squad_processing:540] Finished processing: 2200
+[NeMo I 2021-05-05 13:31:20 qa_squad_processing:540] Finished processing: 2300
+[NeMo I 2021-05-05 13:31:20 qa_squad_processing:540] Finished processing: 2400
+[NeMo I 2021-05-05 13:31:21 qa_squad_processing:540] Finished processing: 2500
+[NeMo I 2021-05-05 13:31:21 qa_squad_processing:540] Finished processing: 2600
+[NeMo I 2021-05-05 13:31:22 qa_squad_processing:540] Finished processing: 2700
+[NeMo I 2021-05-05 13:31:22 qa_squad_processing:540] Finished processing: 2800
+[NeMo I 2021-05-05 13:31:23 qa_squad_processing:540] Finished processing: 2900
+[NeMo I 2021-05-05 13:31:23 qa_squad_processing:540] Finished processing: 3000
+[NeMo I 2021-05-05 13:31:24 qa_squad_processing:540] Finished processing: 3100
+[NeMo I 2021-05-05 13:31:24 qa_squad_processing:540] Finished processing: 3200
+[NeMo I 2021-05-05 13:31:25 qa_squad_processing:540] Finished processing: 3300
+[NeMo I 2021-05-05 13:31:26 qa_squad_processing:540] Finished processing: 3400
+[NeMo I 2021-05-05 13:31:26 qa_squad_processing:540] Finished processing: 3500
+[NeMo I 2021-05-05 13:31:27 qa_squad_processing:540] Finished processing: 3600
+[NeMo I 2021-05-05 13:31:28 qa_squad_processing:540] Finished processing: 3700
+[NeMo I 2021-05-05 13:31:28 qa_squad_processing:540] Finished processing: 3800
+[NeMo I 2021-05-05 13:31:29 qa_squad_processing:540] Finished processing: 3900
+[NeMo I 2021-05-05 13:31:29 qa_squad_processing:540] Finished processing: 4000
+[NeMo I 2021-05-05 13:31:30 qa_squad_processing:540] Finished processing: 4100
+[NeMo I 2021-05-05 13:31:31 qa_squad_processing:540] Finished processing: 4200
+[NeMo I 2021-05-05 13:31:33 qa_squad_processing:540] Finished processing: 4300
+[NeMo I 2021-05-05 13:31:33 qa_squad_processing:540] Finished processing: 4300
+[NeMo I 2021-05-05 13:31:33 qa_squad_processing:540] Finished processing: 4300
+[NeMo I 2021-05-05 13:31:33 qa_squad_processing:540] Finished processing: 4300
+[NeMo I 2021-05-05 13:31:33 qa_squad_processing:540] Finished processing: 4300
+[NeMo I 2021-05-05 13:31:34 qa_squad_processing:540] Finished processing: 4400
+[NeMo I 2021-05-05 13:31:34 qa_squad_processing:540] Finished processing: 4500
+[NeMo I 2021-05-05 13:31:35 qa_squad_processing:540] Finished processing: 4600
+[NeMo I 2021-05-05 13:31:36 qa_squad_processing:540] Finished processing: 4700
+[NeMo I 2021-05-05 13:31:36 qa_squad_processing:540] Finished processing: 4800
+[NeMo I 2021-05-05 13:31:37 qa_squad_processing:540] Finished processing: 4900
+[NeMo I 2021-05-05 13:31:38 qa_dataset:137]   Saving train features into cached file /home/ocistudent/Desktop/Spring-21/NeMoTutorials/squad/v1.1/dev-v1.1.json_cache_eval_BertTokenizer_30522_384_128_64_5000
+[NeMo I 2021-05-05 13:31:40 qa_dataset:119] loading from /home/ocistudent/Desktop/Spring-21/NeMoTutorials/squad/v1.1/dev-v1.1.json_cache_eval_BertTokenizer_30522_384_128_64_5000
+[NeMo I 2021-05-05 13:32:59 qa_dataset:119] loading from /home/ocistudent/Desktop/Spring-21/NeMoTutorials/squad/v1.1/train-v1.1.json_cache_train_BertTokenizer_30522_384_128_64_5000
+[NeMo I 2021-05-05 13:33:02 qa_dataset:119] loading from /home/ocistudent/Desktop/Spring-21/NeMoTutorials/squad/v1.1/dev-v1.1.json_cache_eval_BertTokenizer_30522_384_128_64_5000
+[NeMo I 2021-05-05 13:33:05 qa_dataset:119] loading from /home/ocistudent/Desktop/Spring-21/NeMoTutorials/squad/v1.1/dev-v1.1.json_cache_eval_BertTokenizer_30522_384_128_64_5000
+[NeMo I 2021-05-05 13:36:28 modelPT:685] Optimizer config = AdamW (
+    Parameter Group 0
+        amsgrad: False
+        betas: (0.9, 0.999)
+        eps: 1e-08
+        lr: 3e-05
+        weight_decay: 0.0
+    )
+[NeMo I 2021-05-05 13:36:28 lr_scheduler:617] Scheduler "<nemo.core.optim.lr_scheduler.SquareRootAnnealing object at 0x7fd1a19d9d00>" 
+    will be used during training (effective maximum steps = 426) - 
+    Parameters : 
+    (warmup_steps: null
+    warmup_ratio: 0.0
+    last_epoch: -1
+    max_steps: 426
+    )
+[NeMo W 2021-05-05 13:36:28 nemo_logging:349] /home/ocistudent/anaconda3/lib/python3.8/site-packages/pytorch_lightning/utilities/distributed.py:49: UserWarning: The dataloader, train dataloader, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 12 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+      warnings.warn(*args, **kwargs)
+    
+[NeMo W 2021-05-05 13:36:28 nemo_logging:349] /home/ocistudent/anaconda3/lib/python3.8/site-packages/pytorch_lightning/utilities/distributed.py:49: UserWarning: The dataloader, val dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 12 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+      warnings.warn(*args, **kwargs)
+    
+[NeMo W 2021-05-05 13:36:28 nemo_logging:349] /home/ocistudent/anaconda3/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:131: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+      warnings.warn("Detected call of `lr_scheduler.step()` before `optimizer.step()`. "
+    
+[NeMo I 2021-05-05 13:41:31 qa_model:172] val exact match 60.08
+[NeMo I 2021-05-05 13:41:31 qa_model:173] val f1 70.8809637707633
+[NeMo I 2021-05-05 13:41:59 qa_dataset:119] loading from /home/ocistudent/Desktop/Spring-21/NeMoTutorials/squad/v1.1/dev-v1.1.json_cache_eval_BertTokenizer_30522_384_128_64_5000
+[NeMo W 2021-05-05 13:42:00 nemo_logging:349] /home/ocistudent/anaconda3/lib/python3.8/site-packages/pytorch_lightning/utilities/distributed.py:49: UserWarning: The dataloader, test dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 12 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+      warnings.warn(*args, **kwargs)
+    
+[NeMo I 2021-05-05 13:43:25 qa_model:172] test exact match 60.08
+[NeMo I 2021-05-05 13:43:25 qa_model:173] test f1 70.8809637707633

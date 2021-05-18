@@ -1,0 +1,712 @@
+{
+    "56be4db0acb8001400a502ec": [
+        {
+            "question": "Which NFL team represented the AFC at Super Bowl 50?",
+            "text": "Denver Broncos",
+            "probability": 0.5822179107041164,
+            "start_logit": 5.7056965827941895,
+            "end_logit": 5.7210493087768555
+        },
+        {
+            "question": "Which NFL team represented the AFC at Super Bowl 50?",
+            "text": "American Football Conference (AFC) champion Denver Broncos",
+            "probability": 0.13219907832779762,
+            "start_logit": 4.223160743713379,
+            "end_logit": 5.7210493087768555
+        },
+        {
+            "question": "Which NFL team represented the AFC at Super Bowl 50?",
+            "text": "Denver Broncos defeated the National Football Conference (NFC) champion Carolina Panthers",
+            "probability": 0.10721434987564235,
+            "start_logit": 5.7056965827941895,
+            "end_logit": 4.029034614562988
+        },
+        {
+            "question": "Which NFL team represented the AFC at Super Bowl 50?",
+            "text": "Carolina Panthers",
+            "probability": 0.07484867823800441,
+            "start_logit": 5.346334934234619,
+            "end_logit": 4.029034614562988
+        },
+        {
+            "question": "Which NFL team represented the AFC at Super Bowl 50?",
+            "text": "American Football Conference (AFC) champion Denver Broncos defeated the National Football Conference (NFC) champion Carolina Panthers",
+            "probability": 0.024344215415724298,
+            "start_logit": 4.223160743713379,
+            "end_logit": 4.029034614562988
+        },
+        {
+            "question": "Which NFL team represented the AFC at Super Bowl 50?",
+            "text": "National Football League (NFL) for the 2015 season. The American Football Conference (AFC) champion Denver Broncos",
+            "probability": 0.023412200424822505,
+            "start_logit": 2.4921090602874756,
+            "end_logit": 5.7210493087768555
+        },
+        {
+            "question": "Which NFL team represented the AFC at Super Bowl 50?",
+            "text": "The American Football Conference (AFC) champion Denver Broncos",
+            "probability": 0.008779680991213642,
+            "start_logit": 1.5112918615341187,
+            "end_logit": 5.7210493087768555
+        },
+        {
+            "question": "Which NFL team represented the AFC at Super Bowl 50?",
+            "text": "Broncos",
+            "probability": 0.00850969859568008,
+            "start_logit": 1.4800583124160767,
+            "end_logit": 5.7210493087768555
+        },
+        {
+            "question": "Which NFL team represented the AFC at Super Bowl 50?",
+            "text": "AFC) champion Denver Broncos",
+            "probability": 0.006731249806563276,
+            "start_logit": 1.245612621307373,
+            "end_logit": 5.7210493087768555
+        },
+        {
+            "question": "Which NFL team represented the AFC at Super Bowl 50?",
+            "text": "Denver",
+            "probability": 0.006677668657100862,
+            "start_logit": 5.7056965827941895,
+            "end_logit": 1.2529734373092651
+        },
+        {
+            "question": "Which NFL team represented the AFC at Super Bowl 50?",
+            "text": "American Football Conference",
+            "probability": 0.005085122258436862,
+            "start_logit": 4.223160743713379,
+            "end_logit": 2.463059425354004
+        },
+        {
+            "question": "Which NFL team represented the AFC at Super Bowl 50?",
+            "text": "Denver Broncos defeated the National Football Conference (NFC",
+            "probability": 0.003950341251711478,
+            "start_logit": 5.7056965827941895,
+            "end_logit": 0.7280064821243286
+        },
+        {
+            "question": "Which NFL team represented the AFC at Super Bowl 50?",
+            "text": "Denver Broncos defeated the National Football Conference (NFC) champion Carolina",
+            "probability": 0.003734442497635615,
+            "start_logit": 5.7056965827941895,
+            "end_logit": 0.6718030571937561
+        },
+        {
+            "question": "Which NFL team represented the AFC at Super Bowl 50?",
+            "text": "Carolina",
+            "probability": 0.0026070958339818313,
+            "start_logit": 5.346334934234619,
+            "end_logit": 0.6718030571937561
+        },
+        {
+            "question": "Which NFL team represented the AFC at Super Bowl 50?",
+            "text": "champion of the National Football League (NFL) for the 2015 season. The American Football Conference (AFC) champion Denver Broncos",
+            "probability": 0.0020608599216157667,
+            "start_logit": 0.06197512149810791,
+            "end_logit": 5.7210493087768555
+        },
+        {
+            "question": "Which NFL team represented the AFC at Super Bowl 50?",
+            "text": "The American Football Conference (AFC) champion Denver Broncos defeated the National Football Conference (NFC) champion Carolina Panthers",
+            "probability": 0.0016167619928595417,
+            "start_logit": 1.5112918615341187,
+            "end_logit": 4.029034614562988
+        },
+        {
+            "question": "Which NFL team represented the AFC at Super Bowl 50?",
+            "text": "Broncos defeated the National Football Conference (NFC) champion Carolina Panthers",
+            "probability": 0.001567045234781809,
+            "start_logit": 1.4800583124160767,
+            "end_logit": 4.029034614562988
+        },
+        {
+            "question": "Which NFL team represented the AFC at Super Bowl 50?",
+            "text": "American Football Conference (AFC) champion Denver",
+            "probability": 0.0015162392389810664,
+            "start_logit": 4.223160743713379,
+            "end_logit": 1.2529734373092651
+        },
+        {
+            "question": "Which NFL team represented the AFC at Super Bowl 50?",
+            "text": "the National Football League (NFL) for the 2015 season. The American Football Conference (AFC) champion Denver Broncos",
+            "probability": 0.0014787371760048404,
+            "start_logit": -0.2699597477912903,
+            "end_logit": 5.7210493087768555
+        },
+        {
+            "question": "Which NFL team represented the AFC at Super Bowl 50?",
+            "text": "National Football Conference (NFC) champion Carolina Panthers",
+            "probability": 0.0014486235573260454,
+            "start_logit": 1.4014803171157837,
+            "end_logit": 4.029034614562988
+        }
+    ],
+    "56be4db0acb8001400a502ed": [
+        {
+            "question": "Which NFL team represented the NFC at Super Bowl 50?",
+            "text": "Carolina Panthers",
+            "probability": 0.3741571859400224,
+            "start_logit": 6.196988105773926,
+            "end_logit": 5.271794319152832
+        },
+        {
+            "question": "Which NFL team represented the NFC at Super Bowl 50?",
+            "text": "Denver Broncos",
+            "probability": 0.2638759434486753,
+            "start_logit": 5.440745830535889,
+            "end_logit": 5.678839683532715
+        },
+        {
+            "question": "Which NFL team represented the NFC at Super Bowl 50?",
+            "text": "Denver Broncos defeated the National Football Conference (NFC) champion Carolina Panthers",
+            "probability": 0.175639520758272,
+            "start_logit": 5.440745830535889,
+            "end_logit": 5.271794319152832
+        },
+        {
+            "question": "Which NFL team represented the NFC at Super Bowl 50?",
+            "text": "American Football Conference (AFC) champion Denver Broncos",
+            "probability": 0.047032605550057845,
+            "start_logit": 3.7161078453063965,
+            "end_logit": 5.678839683532715
+        },
+        {
+            "question": "Which NFL team represented the NFC at Super Bowl 50?",
+            "text": "American Football Conference (AFC) champion Denver Broncos defeated the National Football Conference (NFC) champion Carolina Panthers",
+            "probability": 0.03130556044958963,
+            "start_logit": 3.7161078453063965,
+            "end_logit": 5.271794319152832
+        },
+        {
+            "question": "Which NFL team represented the NFC at Super Bowl 50?",
+            "text": "National Football Conference (NFC) champion Carolina Panthers",
+            "probability": 0.027682233529388547,
+            "start_logit": 3.5931029319763184,
+            "end_logit": 5.271794319152832
+        },
+        {
+            "question": "Which NFL team represented the NFC at Super Bowl 50?",
+            "text": "National Football League (NFL) for the 2015 season. The American Football Conference (AFC) champion Denver Broncos",
+            "probability": 0.013641258461081945,
+            "start_logit": 2.478365659713745,
+            "end_logit": 5.678839683532715
+        },
+        {
+            "question": "Which NFL team represented the NFC at Super Bowl 50?",
+            "text": "Carolina",
+            "probability": 0.010332970843467126,
+            "start_logit": 6.196988105773926,
+            "end_logit": 1.6824581623077393
+        },
+        {
+            "question": "Which NFL team represented the NFC at Super Bowl 50?",
+            "text": "AFC) champion Denver Broncos",
+            "probability": 0.008073333526453069,
+            "start_logit": 1.9538332223892212,
+            "end_logit": 5.678839683532715
+        },
+        {
+            "question": "Which NFL team represented the NFC at Super Bowl 50?",
+            "text": "The American Football Conference (AFC) champion Denver Broncos",
+            "probability": 0.00749354118895844,
+            "start_logit": 1.8793082237243652,
+            "end_logit": 5.678839683532715
+        },
+        {
+            "question": "Which NFL team represented the NFC at Super Bowl 50?",
+            "text": "Panthers",
+            "probability": 0.006456568924688554,
+            "start_logit": 2.1374101638793945,
+            "end_logit": 5.271794319152832
+        },
+        {
+            "question": "Which NFL team represented the NFC at Super Bowl 50?",
+            "text": "AFC) champion Denver Broncos defeated the National Football Conference (NFC) champion Carolina Panthers",
+            "probability": 0.005373723777073721,
+            "start_logit": 1.9538332223892212,
+            "end_logit": 5.271794319152832
+        },
+        {
+            "question": "Which NFL team represented the NFC at Super Bowl 50?",
+            "text": "Broncos",
+            "probability": 0.005033693487368103,
+            "start_logit": 1.4814207553863525,
+            "end_logit": 5.678839683532715
+        },
+        {
+            "question": "Which NFL team represented the NFC at Super Bowl 50?",
+            "text": "The American Football Conference (AFC) champion Denver Broncos defeated the National Football Conference (NFC) champion Carolina Panthers",
+            "probability": 0.0049878058833621175,
+            "start_logit": 1.8793082237243652,
+            "end_logit": 5.271794319152832
+        },
+        {
+            "question": "Which NFL team represented the NFC at Super Bowl 50?",
+            "text": "Denver Broncos defeated the National Football Conference (NFC) champion Carolina",
+            "probability": 0.004850576482705024,
+            "start_logit": 5.440745830535889,
+            "end_logit": 1.6824581623077393
+        },
+        {
+            "question": "Which NFL team represented the NFC at Super Bowl 50?",
+            "text": "Denver Broncos defeated the National Football Conference",
+            "probability": 0.0035666486599644975,
+            "start_logit": 5.440745830535889,
+            "end_logit": 1.374987006187439
+        },
+        {
+            "question": "Which NFL team represented the NFC at Super Bowl 50?",
+            "text": "Broncos defeated the National Football Conference (NFC) champion Carolina Panthers",
+            "probability": 0.003350496828966645,
+            "start_logit": 1.4814207553863525,
+            "end_logit": 5.271794319152832
+        },
+        {
+            "question": "Which NFL team represented the NFC at Super Bowl 50?",
+            "text": "the National Football Conference (NFC) champion Carolina Panthers",
+            "probability": 0.0024542766811384517,
+            "start_logit": 1.1701442003250122,
+            "end_logit": 5.271794319152832
+        },
+        {
+            "question": "Which NFL team represented the NFC at Super Bowl 50?",
+            "text": "NFC) champion Carolina Panthers",
+            "probability": 0.00240871282142074,
+            "start_logit": 1.151404619216919,
+            "end_logit": 5.271794319152832
+        },
+        {
+            "question": "Which NFL team represented the NFC at Super Bowl 50?",
+            "text": "Denver",
+            "probability": 0.0022833427573458287,
+            "start_logit": 5.440745830535889,
+            "end_logit": 0.9290010929107666
+        }
+    ],
+    "56be4db0acb8001400a502ee": [
+        {
+            "question": "Where did Super Bowl 50 take place?",
+            "text": "Levi's Stadium",
+            "probability": 0.2420016151872621,
+            "start_logit": 3.802175760269165,
+            "end_logit": 4.178816318511963
+        },
+        {
+            "question": "Where did Super Bowl 50 take place?",
+            "text": "Levi's Stadium in the San Francisco Bay Area at Santa Clara, California",
+            "probability": 0.18196361456381835,
+            "start_logit": 3.802175760269165,
+            "end_logit": 3.893678665161133
+        },
+        {
+            "question": "Where did Super Bowl 50 take place?",
+            "text": "Santa Clara, California",
+            "probability": 0.17376834443871098,
+            "start_logit": 3.756092071533203,
+            "end_logit": 3.893678665161133
+        },
+        {
+            "question": "Where did Super Bowl 50 take place?",
+            "text": "San Francisco Bay Area at Santa Clara, California",
+            "probability": 0.10659267565564841,
+            "start_logit": 3.2673838138580322,
+            "end_logit": 3.893678665161133
+        },
+        {
+            "question": "Where did Super Bowl 50 take place?",
+            "text": "Levi's Stadium in the San Francisco Bay Area",
+            "probability": 0.07848105136311692,
+            "start_logit": 3.802175760269165,
+            "end_logit": 3.0527291297912598
+        },
+        {
+            "question": "Where did Super Bowl 50 take place?",
+            "text": "San Francisco Bay Area",
+            "probability": 0.045973505599544204,
+            "start_logit": 3.2673838138580322,
+            "end_logit": 3.0527291297912598
+        },
+        {
+            "question": "Where did Super Bowl 50 take place?",
+            "text": "the San Francisco Bay Area at Santa Clara, California",
+            "probability": 0.026921965456903875,
+            "start_logit": 1.891311526298523,
+            "end_logit": 3.893678665161133
+        },
+        {
+            "question": "Where did Super Bowl 50 take place?",
+            "text": "Levi's Stadium in the San Francisco Bay Area at Santa Clara",
+            "probability": 0.019476606348500288,
+            "start_logit": 3.802175760269165,
+            "end_logit": 1.659085988998413
+        },
+        {
+            "question": "Where did Super Bowl 50 take place?",
+            "text": "Santa Clara",
+            "probability": 0.018599419716826947,
+            "start_logit": 3.756092071533203,
+            "end_logit": 1.659085988998413
+        },
+        {
+            "question": "Where did Super Bowl 50 take place?",
+            "text": "February 7, 2016, at Levi's Stadium",
+            "probability": 0.014330184372500259,
+            "start_logit": 0.975599467754364,
+            "end_logit": 4.178816318511963
+        },
+        {
+            "question": "Where did Super Bowl 50 take place?",
+            "text": "Levi's Stadium in the San Francisco",
+            "probability": 0.01264595965358977,
+            "start_logit": 3.802175760269165,
+            "end_logit": 1.2272096872329712
+        },
+        {
+            "question": "Where did Super Bowl 50 take place?",
+            "text": "the San Francisco Bay Area",
+            "probability": 0.011611465066156443,
+            "start_logit": 1.891311526298523,
+            "end_logit": 3.0527291297912598
+        },
+        {
+            "question": "Where did Super Bowl 50 take place?",
+            "text": "San Francisco Bay Area at Santa Clara",
+            "probability": 0.011409223697577825,
+            "start_logit": 3.2673838138580322,
+            "end_logit": 1.659085988998413
+        },
+        {
+            "question": "Where did Super Bowl 50 take place?",
+            "text": "February 7, 2016, at Levi's Stadium in the San Francisco Bay Area at Santa Clara, California",
+            "probability": 0.010775019595502854,
+            "start_logit": 0.975599467754364,
+            "end_logit": 3.893678665161133
+        },
+        {
+            "question": "Where did Super Bowl 50 take place?",
+            "text": "at Levi's Stadium",
+            "probability": 0.010725114565318215,
+            "start_logit": 0.6858195066452026,
+            "end_logit": 4.178816318511963
+        },
+        {
+            "question": "Where did Super Bowl 50 take place?",
+            "text": "at Levi's Stadium in the San Francisco Bay Area at Santa Clara, California",
+            "probability": 0.00806432887402927,
+            "start_logit": 0.6858195066452026,
+            "end_logit": 3.893678665161133
+        },
+        {
+            "question": "Where did Super Bowl 50 take place?",
+            "text": "San Francisco",
+            "probability": 0.0074078912915678035,
+            "start_logit": 3.2673838138580322,
+            "end_logit": 1.2272096872329712
+        },
+        {
+            "question": "Where did Super Bowl 50 take place?",
+            "text": "Stadium",
+            "probability": 0.006928853888588592,
+            "start_logit": 0.24892577528953552,
+            "end_logit": 4.178816318511963
+        },
+        {
+            "question": "Where did Super Bowl 50 take place?",
+            "text": "in the San Francisco Bay Area at Santa Clara, California",
+            "probability": 0.006759607967499978,
+            "start_logit": 0.5093339085578918,
+            "end_logit": 3.893678665161133
+        },
+        {
+            "question": "Where did Super Bowl 50 take place?",
+            "text": "Francisco Bay Area at Santa Clara, California",
+            "probability": 0.005563552697337071,
+            "start_logit": 0.3146058917045593,
+            "end_logit": 3.893678665161133
+        }
+    ],
+    "56be4db0acb8001400a502ef": [
+        {
+            "question": "Which NFL team won Super Bowl 50?",
+            "text": "Denver Broncos",
+            "probability": 0.46767861338499994,
+            "start_logit": 4.957313060760498,
+            "end_logit": 4.664216995239258
+        },
+        {
+            "question": "Which NFL team won Super Bowl 50?",
+            "text": "Denver Broncos defeated the National Football Conference (NFC) champion Carolina Panthers",
+            "probability": 0.1824097263219411,
+            "start_logit": 4.957313060760498,
+            "end_logit": 3.722691059112549
+        },
+        {
+            "question": "Which NFL team won Super Bowl 50?",
+            "text": "Carolina Panthers",
+            "probability": 0.14138586033278375,
+            "start_logit": 4.702550411224365,
+            "end_logit": 3.722691059112549
+        },
+        {
+            "question": "Which NFL team won Super Bowl 50?",
+            "text": "National Football League (NFL) for the 2015 season. The American Football Conference (AFC) champion Denver Broncos",
+            "probability": 0.08155469751126958,
+            "start_logit": 3.210805654525757,
+            "end_logit": 4.664216995239258
+        },
+        {
+            "question": "Which NFL team won Super Bowl 50?",
+            "text": "American Football Conference (AFC) champion Denver Broncos",
+            "probability": 0.021922581535237632,
+            "start_logit": 1.8970489501953125,
+            "end_logit": 4.664216995239258
+        },
+        {
+            "question": "Which NFL team won Super Bowl 50?",
+            "text": "The American Football Conference (AFC) champion Denver Broncos",
+            "probability": 0.017013308703847017,
+            "start_logit": 1.643527626991272,
+            "end_logit": 4.664216995239258
+        },
+        {
+            "question": "Which NFL team won Super Bowl 50?",
+            "text": "the National Football League (NFL) for the 2015 season. The American Football Conference (AFC) champion Denver Broncos",
+            "probability": 0.0127724761451673,
+            "start_logit": 1.356824278831482,
+            "end_logit": 4.664216995239258
+        },
+        {
+            "question": "Which NFL team won Super Bowl 50?",
+            "text": "champion of the National Football League (NFL) for the 2015 season. The American Football Conference (AFC) champion Denver Broncos",
+            "probability": 0.0095904039837941,
+            "start_logit": 1.070294737815857,
+            "end_logit": 4.664216995239258
+        },
+        {
+            "question": "Which NFL team won Super Bowl 50?",
+            "text": "American Football Conference (AFC) champion Denver Broncos defeated the National Football Conference (NFC) champion Carolina Panthers",
+            "probability": 0.008550513073859954,
+            "start_logit": 1.8970489501953125,
+            "end_logit": 3.722691059112549
+        },
+        {
+            "question": "Which NFL team won Super Bowl 50?",
+            "text": "National Football League",
+            "probability": 0.007586350919481626,
+            "start_logit": 3.210805654525757,
+            "end_logit": 2.2892937660217285
+        },
+        {
+            "question": "Which NFL team won Super Bowl 50?",
+            "text": "Denver",
+            "probability": 0.006670383908587562,
+            "start_logit": 4.957313060760498,
+            "end_logit": 0.4141130745410919
+        },
+        {
+            "question": "Which NFL team won Super Bowl 50?",
+            "text": "The American Football Conference (AFC) champion Denver Broncos defeated the National Football Conference (NFC) champion Carolina Panthers",
+            "probability": 0.006635738508625524,
+            "start_logit": 1.643527626991272,
+            "end_logit": 3.722691059112549
+        },
+        {
+            "question": "Which NFL team won Super Bowl 50?",
+            "text": "Broncos",
+            "probability": 0.006194375369578036,
+            "start_logit": 0.633173406124115,
+            "end_logit": 4.664216995239258
+        },
+        {
+            "question": "Which NFL team won Super Bowl 50?",
+            "text": "Denver Broncos defeated the National Football Conference (NFC",
+            "probability": 0.0061250361547094635,
+            "start_logit": 4.957313060760498,
+            "end_logit": 0.3288203179836273
+        },
+        {
+            "question": "Which NFL team won Super Bowl 50?",
+            "text": "NFC) champion Carolina Panthers",
+            "probability": 0.005235015694036002,
+            "start_logit": 1.4064275026321411,
+            "end_logit": 3.722691059112549
+        },
+        {
+            "question": "Which NFL team won Super Bowl 50?",
+            "text": "Denver Broncos defeated the National Football Conference (NFC) champion Carolina",
+            "probability": 0.004454491764215989,
+            "start_logit": 4.957313060760498,
+            "end_logit": 0.01034863106906414
+        },
+        {
+            "question": "Which NFL team won Super Bowl 50?",
+            "text": "American football game to determine the champion of the National Football League (NFL) for the 2015 season. The American Football Conference (AFC) champion Denver Broncos",
+            "probability": 0.003978385162537996,
+            "start_logit": 0.19040772318840027,
+            "end_logit": 4.664216995239258
+        },
+        {
+            "question": "Which NFL team won Super Bowl 50?",
+            "text": "National Football League (NFL",
+            "probability": 0.003719086067867637,
+            "start_logit": 3.210805654525757,
+            "end_logit": 1.5764210224151611
+        },
+        {
+            "question": "Which NFL team won Super Bowl 50?",
+            "text": "Carolina",
+            "probability": 0.0034526785557334704,
+            "start_logit": 4.702550411224365,
+            "end_logit": 0.01034863106906414
+        },
+        {
+            "question": "Which NFL team won Super Bowl 50?",
+            "text": "AFC) champion Denver Broncos",
+            "probability": 0.0030702769017265912,
+            "start_logit": -0.06870052218437195,
+            "end_logit": 4.664216995239258
+        }
+    ],
+    "56be4db0acb8001400a502f0": [
+        {
+            "question": "What color was used to emphasize the 50th anniversary of the Super Bowl?",
+            "text": "gold",
+            "probability": 0.20879194151816327,
+            "start_logit": 5.3765082359313965,
+            "end_logit": 2.9023945331573486
+        },
+        {
+            "question": "What color was used to emphasize the 50th anniversary of the Super Bowl?",
+            "text": "gold-themed initiatives, as well as temporarily suspending the tradition of naming each Super Bowl game with Roman numerals",
+            "probability": 0.15957901548672554,
+            "start_logit": 5.3765082359313965,
+            "end_logit": 2.6335954666137695
+        },
+        {
+            "question": "What color was used to emphasize the 50th anniversary of the Super Bowl?",
+            "text": "gold-themed",
+            "probability": 0.14947259772738358,
+            "start_logit": 5.3765082359313965,
+            "end_logit": 2.568169355392456
+        },
+        {
+            "question": "What color was used to emphasize the 50th anniversary of the Super Bowl?",
+            "text": "gold-themed initiatives",
+            "probability": 0.13653689171412228,
+            "start_logit": 5.3765082359313965,
+            "end_logit": 2.4776511192321777
+        },
+        {
+            "question": "What color was used to emphasize the 50th anniversary of the Super Bowl?",
+            "text": "Arabic numerals 50",
+            "probability": 0.06013062836737621,
+            "start_logit": 4.136247158050537,
+            "end_logit": 2.897836685180664
+        },
+        {
+            "question": "What color was used to emphasize the 50th anniversary of the Super Bowl?",
+            "text": "gold-themed initiatives, as well as temporarily suspending the tradition of naming each Super Bowl game with Roman numeral",
+            "probability": 0.05821862222303077,
+            "start_logit": 5.3765082359313965,
+            "end_logit": 1.6252615451812744
+        },
+        {
+            "question": "What color was used to emphasize the 50th anniversary of the Super Bowl?",
+            "text": "Roman numerals",
+            "probability": 0.056350025739575135,
+            "start_logit": 4.335551738739014,
+            "end_logit": 2.6335954666137695
+        },
+        {
+            "question": "What color was used to emphasize the 50th anniversary of the Super Bowl?",
+            "text": "golden anniversary\" with various gold",
+            "probability": 0.023616811209083283,
+            "start_logit": 3.1971287727355957,
+            "end_logit": 2.9023945331573486
+        },
+        {
+            "question": "What color was used to emphasize the 50th anniversary of the Super Bowl?",
+            "text": "Roman numeral",
+            "probability": 0.020557971552740164,
+            "start_logit": 4.335551738739014,
+            "end_logit": 1.6252615451812744
+        },
+        {
+            "question": "What color was used to emphasize the 50th anniversary of the Super Bowl?",
+            "text": "golden anniversary\" with various gold-themed initiatives, as well as temporarily suspending the tradition of naming each Super Bowl game with Roman numerals",
+            "probability": 0.01805025354081265,
+            "start_logit": 3.1971287727355957,
+            "end_logit": 2.6335954666137695
+        },
+        {
+            "question": "What color was used to emphasize the 50th anniversary of the Super Bowl?",
+            "text": "Roman numerals (under which the game would have been known as \"Super Bowl L",
+            "probability": 0.017985753917490663,
+            "start_logit": 4.335551738739014,
+            "end_logit": 1.4915927648544312
+        },
+        {
+            "question": "What color was used to emphasize the 50th anniversary of the Super Bowl?",
+            "text": "golden anniversary\" with various gold-themed",
+            "probability": 0.016907099458873417,
+            "start_logit": 3.1971287727355957,
+            "end_logit": 2.568169355392456
+        },
+        {
+            "question": "What color was used to emphasize the 50th anniversary of the Super Bowl?",
+            "text": "gold-themed initiatives, as well as temporarily suspending the tradition of naming each Super Bowl game with Roman",
+            "probability": 0.015498596361143969,
+            "start_logit": 5.3765082359313965,
+            "end_logit": 0.3018057346343994
+        },
+        {
+            "question": "What color was used to emphasize the 50th anniversary of the Super Bowl?",
+            "text": "golden anniversary\" with various gold-themed initiatives",
+            "probability": 0.015443919776027186,
+            "start_logit": 3.1971287727355957,
+            "end_logit": 2.4776511192321777
+        },
+        {
+            "question": "What color was used to emphasize the 50th anniversary of the Super Bowl?",
+            "text": "50",
+            "probability": 0.010612507221269218,
+            "start_logit": 2.401761054992676,
+            "end_logit": 2.897836685180664
+        },
+        {
+            "question": "What color was used to emphasize the 50th anniversary of the Super Bowl?",
+            "text": "Roman numerals (under which the game would have been known as \"Super Bowl L\"), so that the logo could prominently feature the Arabic",
+            "probability": 0.010133714605631379,
+            "start_logit": 4.335551738739014,
+            "end_logit": 0.9178807139396667
+        },
+        {
+            "question": "What color was used to emphasize the 50th anniversary of the Super Bowl?",
+            "text": "Arabic",
+            "probability": 0.00830255554087812,
+            "start_logit": 4.136247158050537,
+            "end_logit": 0.9178807139396667
+        },
+        {
+            "question": "What color was used to emphasize the 50th anniversary of the Super Bowl?",
+            "text": "golden anniversary\" with various gold-themed initiatives, as well as temporarily suspending the tradition of naming each Super Bowl game with Roman numeral",
+            "probability": 0.0065852072637326824,
+            "start_logit": 3.1971287727355957,
+            "end_logit": 1.6252615451812744
+        },
+        {
+            "question": "What color was used to emphasize the 50th anniversary of the Super Bowl?",
+            "text": "Roman",
+            "probability": 0.005472814211906182,
+            "start_logit": 4.335551738739014,
+            "end_logit": 0.3018057346343994
+        },
+        {
+            "question": "What color was used to emphasize the 50th anniversary of the Super Bowl?",
+            "text": "golden anniversary\" with various gold-themed initiatives, as well as temporarily suspending the tradition of naming each Super Bowl game with Roman",
+            "probability": 0.001753072564034186,
+            "start_logit": 3.1971287727355957,
+            "end_logit": 0.3018057346343994
+        }
+    ]
+}

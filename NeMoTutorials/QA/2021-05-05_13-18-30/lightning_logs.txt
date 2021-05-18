@@ -1,0 +1,16 @@
+GPU available: True, used: True
+TPU available: None, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
+Using native 16bit precision.
+
+  | Name       | Type            | Params
+-----------------------------------------------
+0 | bert_model | BertEncoder     | 109 M 
+1 | classifier | TokenClassifier | 1.5 K 
+2 | loss       | SpanningLoss    | 0     
+-----------------------------------------------
+109 M     Trainable params
+0         Non-trainable params
+109 M     Total params
+Epoch 0, global step 425: val_loss reached 1.66743 (best 1.66743), saving model to "/home/ocistudent/Desktop/Spring-21/NeMoTutorials/QA/2021-05-05_13-18-30/checkpoints/QA---val_loss=1.67-epoch=0.ckpt" as top 3
+Saving latest checkpoint...

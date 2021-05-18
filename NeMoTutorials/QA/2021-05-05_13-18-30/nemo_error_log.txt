@@ -1,0 +1,44 @@
+[NeMo W 2021-05-05 13:24:43 modelPT:180] Using /tmp/tmp61qo5m_i/tokenizer.vocab_file instead of tokenizer.vocab_file.
+[NeMo W 2021-05-05 13:25:35 modelPT:132] Please call the ModelPT.setup_training_data() method and provide a valid configuration file to setup the train data loader.
+    Train config : 
+    file: /datasets/squad/v1.1/train-v1.1.json
+    batch_size: 3
+    shuffle: true
+    num_samples: -1
+    num_workers: 2
+    drop_last: false
+    pin_memory: false
+    
+[NeMo W 2021-05-05 13:25:35 modelPT:139] Please call the ModelPT.setup_validation_data() or ModelPT.setup_multiple_validation_data() method and provide a valid configuration file to setup the validation data loader(s). 
+    Validation config : 
+    file: /datasets/squad/v1.1/dev-v1.1.json
+    batch_size: 3
+    shuffle: false
+    num_samples: -1
+    num_workers: 2
+    drop_last: false
+    pin_memory: false
+    
+[NeMo W 2021-05-05 13:25:35 modelPT:146] Please call the ModelPT.setup_test_data() or ModelPT.setup_multiple_test_data() method and provide a valid configuration file to setup the test data loader(s).
+    Test config : 
+    file: null
+    batch_size: 24
+    shuffle: false
+    num_samples: -1
+    num_workers: 2
+    drop_last: false
+    pin_memory: false
+    
+[NeMo W 2021-05-05 13:25:35 modelPT:1134] World size can only be set by PyTorch Lightning Trainer.
+[NeMo W 2021-05-05 13:36:28 nemo_logging:349] /home/ocistudent/anaconda3/lib/python3.8/site-packages/pytorch_lightning/utilities/distributed.py:49: UserWarning: The dataloader, train dataloader, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 12 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+      warnings.warn(*args, **kwargs)
+    
+[NeMo W 2021-05-05 13:36:28 nemo_logging:349] /home/ocistudent/anaconda3/lib/python3.8/site-packages/pytorch_lightning/utilities/distributed.py:49: UserWarning: The dataloader, val dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 12 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+      warnings.warn(*args, **kwargs)
+    
+[NeMo W 2021-05-05 13:36:28 nemo_logging:349] /home/ocistudent/anaconda3/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:131: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+      warnings.warn("Detected call of `lr_scheduler.step()` before `optimizer.step()`. "
+    
+[NeMo W 2021-05-05 13:42:00 nemo_logging:349] /home/ocistudent/anaconda3/lib/python3.8/site-packages/pytorch_lightning/utilities/distributed.py:49: UserWarning: The dataloader, test dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 12 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+      warnings.warn(*args, **kwargs)
+    

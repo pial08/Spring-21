@@ -18,3 +18,5 @@ This approach contains generating all the pair of points within the given range.
 The second approach starts from a random point and then using the gradient descent approach we move forward from that point to find a local minima point. In this approach we can only find one minimum point as the program would exit when the minima is found. To find a single minima this approach takes about 20+ iterations. The only problem is that this solution does not gurantee all the minimum points.
 
 
+## Presentation 
+This repository also contains all the slides that I presented. The MIT Deep Learning Slides and Attention in Deep Learning were imported from external sources. The SQuAD_Project slide was for my final Project.
